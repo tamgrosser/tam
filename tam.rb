@@ -17,3 +17,6 @@ if ARGV[1] == "sofort"
 else
   puts message
 end
+
+send = ((STDIN).gets).strip
+puts send + "!??!?!?!?!"
